@@ -15,7 +15,6 @@ body {
 
 /* Centering the container */
 .quiz-container {
-    width: 98%;
     max-width: 400px;
     margin: 100px auto;
     padding: 30px;
