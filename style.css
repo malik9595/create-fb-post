@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
+
+/* Centering the container */
+.quiz-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Heading Style */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Question Style */
+.question {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Options Container */
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Option Style */
+.option {
+    /* background-color: #f1f1f1; */
+    background: #b1e5b1ac;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .option:hover {
+    background-color: #e0e0e0;
+} */
+
+/* .option:active {
+    background-color: #d0d0d0;
+} */
+
+/* Save Button Style */
+.save-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .save-btn:hover {
+    background-color: #45a049;
+} */
+
+.save-btn:disabled {
+    /* background-color: #c1c1c1; */
+    cursor: not-allowed;
+}
